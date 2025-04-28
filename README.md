@@ -1,36 +1,36 @@
 💼 Personal Portfolio Website
 
-This is a Personal Portfolio Website created to showcase my skills, experience, and projects in a clean, modern, and responsive format.
-Built with HTML5, CSS3, and FontAwesome, this portfolio highlights my expertise as a Full Stack Web Developer.
+This is a Personal Portfolio Website made to showcase my skills, experience, and professional journey.
+It is designed with a modern dark theme, ensuring a stylish and clean appearance on all devices.
 🚀 Features
 
-    Responsive design (mobile and desktop friendly)
+    Responsive and Mobile-Friendly Design
 
-    Clean dark theme for a professional look
+    Clean Dark UI for better readability
 
-    Animated social media icons
-
-    Clickable profile image that can be expanded (lightbox ready)
+    Profile Card with social media links
 
     About Me section
 
-    Skills & Expertise with logos:
+    Skills & Expertise cards (with logos of C++, Java, Go, JavaScript, and React)
 
-        C++
+    Work Experience section
 
-        Java
+    Download CV Button
 
-        Go
+    Smooth layout and neat icons using Font Awesome
 
-        JavaScript
+🛠️ Built With
 
-        React
+    HTML5
 
-    Work Experience section with internship details
+    CSS3
 
-    Download CV button
+    Font Awesome 6.5.2
 
-📂 Project Structure
+    Custom Responsive Design
+
+📁 Project Structure
 
 /portfolio-website/
 │
@@ -46,12 +46,52 @@ Built with HTML5, CSS3, and FontAwesome, this portfolio highlights my expertise 
 ├── index.html
 └── README.md
 
-🛠️ Technologies Used
+📸 Preview
+Home	Skills	Experience
+	
+	
 
-    HTML5 – for webpage structure
+(Screenshots need to be added manually — replace with your actual screenshots)
+✨ How to Use
 
-    CSS3 – for styling and responsiveness
+    Clone the repository:
 
-    FontAwesome – for icons
+    git clone https://github.com/your-username/portfolio-website.git
 
-    Responsive Design Principles – for mobile and desktop compatibility
+    Open the index.html file in any web browser.
+
+    To host online:
+
+        You can use platforms like GitHub Pages, Netlify, Vercel, or Render.
+
+        Simple drag and drop or push the code from GitHub.
+
+🔧 Customization Instructions
+
+    Profile Picture: Replace images/avi.jpg with your own.
+
+    Social Links: Update hrefs (#) with your real GitHub, LinkedIn, Instagram, etc. links.
+
+    Skills Logos: You can change icons or add more skills by editing the work section.
+
+    Work Experience: Add more experiences if needed under the "Work Experience" section.
+
+    Colors/Fonts: Modify style.css for custom color themes or typography.
+
+🌍 Live Demo
+
+Live Website Link
+(Update here once you deploy your site!)
+👨‍💻 Author
+
+Avish Bansal
+
+    LinkedIn
+
+    GitHub
+
+    Twitter
+
+📜 License
+
+This project is licensed under the MIT License - feel free to use, modify, and share!
