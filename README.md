@@ -1,97 +1,89 @@
-💼 Personal Portfolio Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio README</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #ddd;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        a {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #222;
+            padding: 4px 6px;
+            border-radius: 4px;
+            color: #4fc3f7;
+        }
+        pre {
+            background: #222;
+            padding: 10px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
 
-This is a Personal Portfolio Website made to showcase my skills, experience, and professional journey.
-It is designed with a modern dark theme, ensuring a stylish and clean appearance on all devices.
-🚀 Features
+    <h1>💼 Avish Bansal - Portfolio Website</h1>
 
-    Responsive and Mobile-Friendly Design
+    <p>A modern <strong>dark-themed</strong> personal portfolio website to showcase my skills, experience, and projects.</p>
 
-    Clean Dark UI for better readability
+    <h2>🚀 Tech Stack</h2>
+    <ul>
+        <li><strong>HTML5</strong></li>
+        <li><strong>CSS3</strong></li>
+        <li><strong>Font Awesome 6.5.2</strong></li>
+    </ul>
 
-    Profile Card with social media links
+    <h2>📋 Features</h2>
+    <ul>
+        <li>Responsive dark design</li>
+        <li>Profile card with social media links</li>
+        <li>Skills section with logos (C++, Java, Go, JavaScript, React)</li>
+        <li>Work experience section</li>
+        <li>Download CV button</li>
+    </ul>
 
-    About Me section
+    <h2>📂 Folder Structure</h2>
+    <pre><code>
+/images/        # Icons and profile image
+style.css       # Main stylesheet
+index.html      # Main webpage
+README.html     # Project overview file
+    </code></pre>
 
-    Skills & Expertise cards (with logos of C++, Java, Go, JavaScript, and React)
+    <h2>🔥 How to Run</h2>
+    <ul>
+        <li>Open <code>index.html</code> directly in your browser.</li>
+        <li>Or deploy it using <strong>GitHub Pages</strong>, <strong>Netlify</strong>, or <strong>Vercel</strong>.</li>
+    </ul>
 
-    Work Experience section
+    <h2>🌐 Live Demo</h2>
+    <p><a href="#">Live Website Link (Coming Soon)</a></p>
 
-    Download CV Button
+    <h2>📬 Connect With Me</h2>
+    <ul>
+        <li><a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+        <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
+    </ul>
 
-    Smooth layout and neat icons using Font Awesome
+    <h2>📜 License</h2>
+    <p>Open-source under the <a href="#">MIT License</a>.</p>
 
-🛠️ Built With
-
-    HTML5
-
-    CSS3
-
-    Font Awesome 6.5.2
-
-    Custom Responsive Design
-
-📁 Project Structure
-
-/portfolio-website/
-│
-├── images/
-│   ├── avi.jpg
-│   ├── C++.jpeg
-│   ├── java.jpg
-│   ├── go.jpg
-│   ├── js.jpg
-│   └── react.jpg
-│
-├── style.css
-├── index.html
-└── README.md
-
-📸 Preview
-Home	Skills	Experience
-	
-	
-
-(Screenshots need to be added manually — replace with your actual screenshots)
-✨ How to Use
-
-    Clone the repository:
-
-    git clone https://github.com/your-username/portfolio-website.git
-
-    Open the index.html file in any web browser.
-
-    To host online:
-
-        You can use platforms like GitHub Pages, Netlify, Vercel, or Render.
-
-        Simple drag and drop or push the code from GitHub.
-
-🔧 Customization Instructions
-
-    Profile Picture: Replace images/avi.jpg with your own.
-
-    Social Links: Update hrefs (#) with your real GitHub, LinkedIn, Instagram, etc. links.
-
-    Skills Logos: You can change icons or add more skills by editing the work section.
-
-    Work Experience: Add more experiences if needed under the "Work Experience" section.
-
-    Colors/Fonts: Modify style.css for custom color themes or typography.
-
-🌍 Live Demo
-
-Live Website Link
-(Update here once you deploy your site!)
-👨‍💻 Author
-
-Avish Bansal
-
-    LinkedIn
-
-    GitHub
-
-    Twitter
-
-📜 License
-
-This project is licensed under the MIT License - feel free to use, modify, and share!
+</body>
+</html>
