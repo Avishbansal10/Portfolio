@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+}
+.profile-card {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3a3a3a;
+}
+
+.profile-details h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.profile-details h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #8a8a8a;
+    margin-bottom: 20px;
+}
+
+.social a {
+    color: #fff;
+    margin: 0 12px;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.social a:hover {
+    color: #4facfe;
+
+}
+
+.contact-info {
+    width: 100%;
+}
+
+.contact-info .row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.contact-info .icon {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.contact-info .content {
+    font-size: 16px;
+}
+
+.contact-info .contact-link {
+    color: #4facfe;
+    text-decoration: none;
+}
+
+.contact-info .contact-link:hover {
+    text-decoration: underline;
+}
+
+.download-btn {
+    background: #3a3a3a;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.download-btn:hover {
+    background: #616161;
+    transform: scale(1.05);
+}
+
+.about {
+    flex: 1;
+    background: #1e1e1e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.workbox {
+    flex: 1 1 220px;
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.workbox:hover {
+    background: #3a3a3a;
+    transform: translateY(-5px);
+}
+
+.workbox .icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.workbox .desc h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.work-experience {
+    margin-top: 40px;
+}
+
+.experience {
+    background: #2b2b2b;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.view-certificate {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4facfe;
+    text-decoration: underline;
+}
+
+.view-certificate:hover {
+    color: #fff;
+}
+
+.social a {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.social a i {
+    font-size: 26px;
+    color: #fff;
+    /* Ensure icons have color */
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about,
+    .work {
+        width: 100%;
+    }
+
+    .workbox {
+        flex: 1 1 100%;
+    }
+}
