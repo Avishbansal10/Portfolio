@@ -4,7 +4,7 @@ This is a personal portfolio website built with HTML and CSS. It showcases a dev
 
 ## 🌐 Live Preview
 
-*([](https://portfoliobyavi.netlify.app/))*
+*((https://portfoliobyavi.netlify.app/))*
 
 
 ## 💡 Features
@@ -41,7 +41,7 @@ Modify style.css to change colors, fonts, or layout as desired.
 
 ## 👨‍💻 Author
 
-Avsih Bansal 
+Avish Bansal 
 
 Thapar Institute of Engineering and Technology
 
