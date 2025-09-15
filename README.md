@@ -29,7 +29,6 @@ This is a personal portfolio website built with HTML and CSS. It showcases a dev
    
 2. Open index.html in a web browser:
 
-- open index.html
 
 ## ✨ Customization
 
