@@ -1,6 +1,6 @@
 # Avish Bansal — Professional Developer Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a1e5cb7f-2b7e-4b4f-801b-5b58348d6db9/deploy-status)](https://portfoliobyavi.netlify.app/)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Live-00C7B7?logo=netlify&logoColor=white)](https://portfoliobyavi.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-avishbansal10-blue?logo=linkedin)](https://www.linkedin.com/in/avishbansal10/)
 [![GitHub](https://img.shields.io/badge/GitHub-Avishbansal10-181717?logo=github)](https://github.com/Avishbansal10)
 
