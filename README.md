@@ -1,12 +1,12 @@
 # Avish Bansal — Professional Developer Portfolio
 
-[![Netlify Status](https://img.shields.io/badge/Netlify-Live-00C7B7?logo=netlify&logoColor=white)](https://portfoliobyavi.netlify.app/)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Live-00C7B7?logo=netlify&logoColor=white)](https://avishbansal.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-avishbansal10-blue?logo=linkedin)](https://www.linkedin.com/in/avishbansal10/)
 [![GitHub](https://img.shields.io/badge/GitHub-Avishbansal10-181717?logo=github)](https://github.com/Avishbansal10)
 
 A highly polished, responsive, and modern personal portfolio website built with clean frontend architecture. Designed with a sleek slate-dark theme, featuring custom layouts for technical skills, professional work experience, cybersecurity hackathons, and full-stack projects.
 
-🔗 **Live Link**: [https://portfoliobyavi.netlify.app/](https://portfoliobyavi.netlify.app/)
+🔗 **Live Link**: [https://avishbansal.dev](https://avishbansal.dev)
 
 ---
 
