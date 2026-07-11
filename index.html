@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Personal Portfolio Website</title>
-
+   <title>Avish Bansal | Portfolio</title>
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
    <div class="container">
+      <!-- Profile Details Card (Sidebar) -->
       <div class="profile-card">
          <div class="profile-pic">
-            <img src="images/avi.jpg" alt="user avatar">
+            <img src="images/avi.jpg" alt="Avish Bansal Profile Pic">
          </div>
 
          <div class="profile-details">
@@ -25,17 +22,17 @@
                <h2>Avish Bansal</h2>
                <h4>Full Stack Web Developer</h4>
                <div class="social">
-                  <a href="https://github.com/Avishbansal10" target="_blank">
-                     <i class="fab fa-github" style="color: var(--blue);"></i>
+                  <a href="https://github.com/Avishbansal10" target="_blank" aria-label="GitHub">
+                     <i class="fab fa-github"></i>
                   </a>
-                  <a href="https://x.com/avishbansal10" target="_blank">
-                     <i class="fa-brands fa-x-twitter" style="color: var(--skyblue);"></i>
+                  <a href="https://www.linkedin.com/in/avish-bansal/" target="_blank" aria-label="LinkedIn">
+                     <i class="fab fa-linkedin"></i>
                   </a>
-                  <a href="https://www.instagram.com/avishbansal10/" target="_blank">
-                     <i class="fab fa-instagram" style="color: var(--dark-pink);"></i>
+                  <a href="https://x.com/avishbansal10" target="_blank" aria-label="Twitter/X">
+                     <i class="fa-brands fa-x-twitter"></i>
                   </a>
-                  <a href="https://www.linkedin.com/in/avishbansal10/" target="_blank">
-                     <i class="fab fa-linkedin" style="color: var(--light-blue);"></i>
+                  <a href="https://www.instagram.com/avishbansal10/" target="_blank" aria-label="Instagram">
+                     <i class="fab fa-instagram"></i>
                   </a>
                </div>
             </div>
@@ -43,7 +40,7 @@
             <div class="contact-info">
                <div class="row">
                   <div class="icon">
-                     <i class="fa fa-phone" style="color:var(--dark-magenta)"></i>
+                     <i class="fa fa-phone"></i>
                   </div>
                   <div class="content">
                      <span>Phone</span>
@@ -53,129 +50,193 @@
 
                <div class="row">
                   <div class="icon">
-                     <i class="fa fa-envelope-open" style="color:var(--light-green)"></i>
+                     <i class="fa fa-envelope-open"></i>
                   </div>
                   <div class="content">
                      <span>Email</span>
-                     <p><a href="mailto:avishbansal10@gmail.com" target="_blank" rel="noopener noreferrer"
-                           class="contact-link">avishbansal10@gmail.com</a></p>
+                     <p><a href="mailto:avishbansal10@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-link">avishbansal10@gmail.com</a></p>
                   </div>
                </div>
 
                <div class="row">
                   <div class="icon">
-                     <i class="fa fa-map-marker" style="color:var(--light-purple)"></i>
+                     <i class="fa fa-map-marker"></i>
                   </div>
                   <div class="content">
                      <span>Location</span>
-                     <p><a href="https://www.google.com/maps/place/Punjab,+India" target="_blank"
-                           rel="noopener noreferrer" class="contact-link">Punjab, India</a></p>
+                     <p>Patiala, Punjab, India</p>
                   </div>
                </div>
             </div>
+            
+            <!-- Download CV (Reference the newly generated PDF) -->
             <a href="Assets/avish-bansal-TIET-2.pdf" download class="download-btn">
                <i class="fa fa-download"></i> Download CV
             </a>
          </div>
       </div>
 
+      <!-- Main Contents (About, Experience, Projects) -->
       <div class="about">
-         <h1>About Me</h1>
+         <section>
+            <h1>About Me</h1>
+            <p>Hello! I'm <strong>Avish Bansal</strong>, a passionate and creative <strong>Full Stack Web Developer</strong> studying Computer Engineering. I love building responsive, accessible, and high-performance websites that combine visual aesthetics with raw backend speed.</p>
+            <p>Currently, I am pursuing my studies at <strong>Thapar Institute of Engineering and Technology</strong> to expand my expertise in logical algorithms and systems software. I enjoy working on full-stack projects, database engineering, and cybersecurity.</p>
+         </section>
 
-         <p>Hello! I'm <strong>Avish Bansal</strong>, a passionate and creative <strong>Full Stack Web
-               Developer</strong> who loves building clean and user-friendly websites. I
-            believe that design is not just about making things look good — it's about solving real-world problems
-            creatively.</p>
-         <p>Currently, I'm diving deeper into <strong>C++</strong> and <strong>JAVA </strong> to broaden my expertise in
-            Logical
-            Thinking and Real World Problems. I would love to work with
-            startups and brands to help shape their
-            digital presence.</p>
-
-         <h2>Skills & Expertise</h2>
-
-         <div class="work">
-            <div class="workbox">
-               <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-                     alt="C++ Logo">
-
+         <!-- SKILLS & EXPERTISE -->
+         <section>
+            <h2>Skills & Expertise</h2>
+            <div class="work">
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>C++</h3>
+                     <p>Core object-oriented logic, algorithms, and systems implementations.</p>
+                  </div>
                </div>
-               <div class="desc">
-                  <h3>C++</h3>
-                  <p>Experienced in building high-performance and memory-efficient applications.</p>
+
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>JavaScript</h3>
+                     <p>Native client-side behaviors, asynchronous fetching, and web API styling.</p>
+                  </div>
                </div>
-            </div>
 
-            <div class="workbox">
-               <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo">
-
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>Node.js</h3>
+                     <p>Pure backend server development, REST routing, and middleware design.</p>
+                  </div>
                </div>
-               <div class="desc">
-                  <h3>Java</h3>
-                  <p>Strong in building backend applications, OOP principles, and Spring framework.</p>
+
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" alt="Firebase Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>Firebase</h3>
+                     <p>Real-time serverless database synchronization and storage integration.</p>
+                  </div>
                </div>
-            </div>
 
-            <div class="workbox">
-               <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go Logo">
-
-
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>React</h3>
+                     <p>Component-driven UI, custom Hooks, and SPA routing integration.</p>
+                  </div>
                </div>
-               <div class="desc">
-                  <h3>Go</h3>
-                  <p>Skilled in writing fast, scalable server-side applications using Golang.</p>
-               </div>
-            </div>
 
-            <div class="workbox">
-               <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                     alt="JavaScript Logo">
-
-               </div>
-               <div class="desc">
-                  <h3>JavaScript</h3>
-                  <p>Frontend development expertise and dynamic web application creation.</p>
-               </div>
-            </div>
-
-            <div class="workbox">
-               <div class="icon">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                     alt="React Logo">
-
-               </div>
-               <div class="desc">
-                  <h3>React</h3>
-                  <p>Building responsive and modern UI components with ReactJS and Hooks.</p>
+               <div class="workbox">
+                  <div class="icon">
+                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+                  </div>
+                  <div class="desc">
+                     <h3>Python</h3>
+                     <p>Automation scripts, data manipulation, and lightweight web systems.</p>
+                  </div>
                </div>
             </div>
-         </div>
+         </section>
 
-
-         <div class="work-experience">
+         <!-- WORK EXPERIENCE -->
+         <section class="work-experience">
             <h1>Work Experience</h1>
 
+            <!-- NIC -->
             <div class="experience">
                <div class="company-name">
-                  <h2>Unified Mentors</h2>
-                  <span>1 Month Internship</span>
+                  <h2>National Informatics Centre (NIC)</h2>
+                  <span>2 Month Internship | Jun 2026 - Aug 2026</span>
                </div>
                <div class="experience-details">
-                  <p>During my internship at Unified Mentors, I worked on various web development tasks including
-                     front-end
-                     and back-end development. I enhanced my skills in working with JavaScript, HTML, CSS, and backend
-                     technologies, while collaborating with a team of talented mentors.</p>
-               </div>
-               <div class="certificate-link">
-                  <a href="Assets/InternCertificate.pdf" class="view-certificate">View Certificate</a>
+                  <p>Allotted under the District Information Office (NIC), Patiala, Punjab for technological policy implementations. Analyzed administrative data registers to assist government officials in validating local program deployments, digitizing public workflows, and streamlining queue efficiency.</p>
                </div>
             </div>
-         </div>
-      </div>
-</body>
 
+            <!-- Unified Mentors -->
+            <div class="experience">
+               <div class="company-name">
+                  <h2>Unified Mentor Pvt Ltd</h2>
+                  <span>1 Month Internship | Apr 2025 - May 2025</span>
+               </div>
+               <div class="experience-details">
+                  <p>Worked as a Fullstack Web Development Intern. Designed responsive UI layouts and backend API endpoints using HTML, CSS, and JavaScript. Optimized resource dependencies to increase overall website loading speed by 15%.</p>
+               </div>
+               <div class="certificate-link">
+                  <a href="https://verify.unifiedmentor.com/" target="_blank" class="view-certificate">
+                     <i class="fa fa-external-link-alt"></i> Verify Certificate (CIN: U85500HR2023PTC115118)
+                  </a>
+               </div>
+            </div>
+         </section>
+
+         <!-- HACKATHONS & SECURITY -->
+         <section class="hackathons-section">
+            <h1>Hackathons & Cyber Security</h1>
+            <div class="hackathon-box">
+               <div class="hackathon-header">
+                  <h2>BOSS OS National Level Bug Bounty</h2>
+                  <span>C-DAC Security Event | 36 Hours</span>
+               </div>
+               <div class="hackathon-desc">
+                  <p>Participated in the national-level security bug bounty organized for BOSS OS (Bharat Operating System Solutions). Audited system modules and configuration libraries for potential exploits and reported detailed vulnerability documentations to C-DAC engineers.</p>
+               </div>
+            </div>
+         </section>
+
+         <!-- PROJECTS -->
+         <section class="projects-section">
+            <h1>Featured Projects</h1>
+
+            <!-- Sonia Boutique -->
+            <div class="project-box">
+               <div class="project-header">
+                  <h2>Sonia Boutique — Booking & E-Commerce</h2>
+                  <span>Full-Stack | Live</span>
+               </div>
+               <div class="project-desc">
+                  <p>Developed a full-stack, zero-dependency Node.js HTTP server. Integrated Firebase Realtime Database REST API to achieve cloud data persistence. Built interactive appointment booking, custom measurements input, and e-commerce reservations cart natively.</p>
+                  <a href="https://sonia-boutique.onrender.com" target="_blank" class="project-link">
+                     <i class="fa fa-external-link-alt"></i> Live Application
+                  </a>
+               </div>
+            </div>
+
+            <!-- NewsWorld -->
+            <div class="project-box">
+               <div class="project-header">
+                  <h2>NewsWorld Aggregator</h2>
+                  <span>Front-End | API</span>
+               </div>
+               <div class="project-desc">
+                  <p>Created a responsive real-time news aggregator website. Integrates NewsAPI via dynamic fetch calls, supporting custom topics search and category pagination with robust connectivity fallbacks.</p>
+               </div>
+            </div>
+
+            <!-- BusinessRevive -->
+            <div class="project-box">
+               <div class="project-header">
+                  <h2>BusinessRevive Analytics</h2>
+                  <span>Data & BI</span>
+               </div>
+               <div class="project-desc">
+                  <p>Designed a business intelligence dashboard in Power BI for AtliQ Grands. Engineered revenue analytics metrics (ADR, RevPAR) to evaluate booking occupancy rates and generate performance recommendations.</p>
+               </div>
+            </div>
+         </section>
+      </div>
+   </div>
+</body>
 </html>
